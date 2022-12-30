@@ -1,4 +1,4 @@
-# A Commerce based website developed for art
+# A Commerce Based Website Designed for Selling Art
 
 Original Arts is a scalable commerce platform dedicated to selling unique art pieces. 
 
