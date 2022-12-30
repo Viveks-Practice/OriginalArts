@@ -2,6 +2,8 @@
 //2. Setup vue router, maybe with a whole new project setup, or integrate it into here. 
 //3. Put the project up on AWS Amplify (or google or Azure - just for learning's sake)
 
+//adding comments to test commit to github
+
 <template>
   <div>
     <HelloWorld msg="Vite + Vue" />
