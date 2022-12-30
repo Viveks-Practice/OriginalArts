@@ -41,6 +41,13 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
+
+
+onMounted(() => {
+  console.log(import.meta.env.VITE_APP_TEST)
+})
+
 const products = [
   {
     id: 1,
