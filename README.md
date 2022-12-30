@@ -8,7 +8,7 @@ A blend of these tools is a powerful combination. Both tools are relatively easy
 
 ## VueJs
 
-VueJs is a powerful web development framework that creates websites with very smooth and efficient functionality. Once the website is loaded, accessing new "pages" on the website do not require communication between the web server and the user. All the code required for browsing the website is loaded with the initial response from the web server. Hence, the result of a VueJs website is referred to as a "Single Page Application" or an SPA.
+VueJs is a powerful web development framework that creates websites with very smooth and efficient functionality. Once the website is loaded, accessing new "pages" on the website do not require communication between the web server and the user. All the code required for browsing the website is loaded with the initial response from the web server. This makes for a seamless user experience. Hence, the result of a VueJs website is referred to as a "Single Page Application" or an SPA.
 
 ## AWS 
 
