@@ -1,4 +1,5 @@
-//1. Create a public github repo for this project, and commit everyday to get green squares
+//1. Create a public github repo for this project, and commit everyday to get green squares (Done)
+//1.1 pull from the repo because I changed the readme, and then push to the repo, and continue with adding the router
 //2. Setup vue router, maybe with a whole new project setup, or integrate it into here. 
 //3. Put the project up on AWS Amplify (or google or Azure - just for learning's sake)
 
