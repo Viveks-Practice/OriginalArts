@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# A Commerce Based Website Designed for Selling Art
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Original Arts is a scalable commerce platform dedicated to selling unique art pieces. 
 
-## Recommended IDE Setup
+# VueJs + AWS Backend
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+A blend of these tools is a powerful combination. Both tools are relatively easy to work with, and have an abundance of features. There are many directions available to steer a project into with this duo, so I chose this setup!
+
+## VueJs
+
+VueJs is a powerful web development framework that creates websites with very smooth and efficient functionality. Once the website is loaded, accessing new "pages" on the website do not require communication between the web server and the user. All the code required for browsing the website is loaded with the initial response from the web server. This makes for a seamless user experience. Hence, the result of a VueJs website is referred to as a "Single Page Application" or an SPA.
+
+## AWS 
+
+AWS tools are very quick to setup, cost effective (particularly for independently managed systems), and scale very well. 
