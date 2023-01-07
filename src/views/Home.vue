@@ -52,7 +52,7 @@
     },
     methods: {
       imageClick() {
-        this.$router.push('/productdetails')
+        this.$router.push({name: 'ProductDetails', params:{productname:'Large Kingman'}})
       }
     },
     data() {

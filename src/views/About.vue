@@ -17,8 +17,3 @@ export default {
   },
 }
 </script>
-
-function imageClick() {
-    this.$router.push('/productdetails')
-    console.log("image was clicked!")
-  }
