@@ -4,6 +4,10 @@
 //3. Put the project up on AWS Amplify (or google or Azure - just for learning's sake) (Done)
 //4. Figure out how to store images online, and access them in the app
 //5. Keep working on app, create new pages that detail an image, an so on, when clicked on
+//6. Create an on click for images to go to a more detailed page
+//7. Study tailwind CSS documentation to get a better grasp of what each keyword means
+//8. Study basic CSS to understand what features exist
+//9. Study basic html to understand what features exist
 
 
 <template>
