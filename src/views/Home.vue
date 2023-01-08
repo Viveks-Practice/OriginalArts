@@ -18,7 +18,7 @@
         <h2 class="text-2xl font-bold tracking-tight text-gray-900">Original Oil Paintings</h2>
   
         <div   class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"> <!-- The grid for all the images margin on the top of the div, creating a 'grid', one column only, row gap is 10, column gap is 6, in small window have 2 columns, in large window, 4 columns, ??-->
-          <div @click="imageClick()" v-for="product in products" :key="product.id" class="group relative">
+          <div @click="imageClick(product.name)" v-for="product in products" :key="product.id" class="group relative">
             <div class="min-h-max aspect-w-4 aspect-h-4 w-full overflow-scroll rounded-lg bg-gray-300 group-hover:opacity-50 lg:aspect-none lg:h-80">
               <img :src="product.imageSrc" :alt="product.imageAlt" class="h-full w-full object-cover object-center lg:h-full lg:w-full" />
             </div>
@@ -51,8 +51,8 @@
       console.log(import.meta.env.VITE_APP_TEST)
     },
     methods: {
-      imageClick() {
-        this.$router.push({name: 'ProductDetails', params:{productname:'Large Kingman'}})
+      imageClick(artname) {
+        this.$router.push({name: 'ProductDetails', params:{productname: artname}})
       }
     },
     data() {
