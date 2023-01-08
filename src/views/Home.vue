@@ -15,7 +15,7 @@
 <template>
     <div class="bg-white">
       <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"> 
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Original Oil Paintings</h2>
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Art Gallery</h2>
   
         <div   class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"> <!-- The grid for all the images margin on the top of the div, creating a 'grid', one column only, row gap is 10, column gap is 6, in small window have 2 columns, in large window, 4 columns, ??-->
           <div @click="imageClick(product.name)" v-for="product in products" :key="product.id" class="group relative">
@@ -52,7 +52,7 @@
     },
     methods: {
       imageClick(artname) {
-        this.$router.push({name: 'ProductDetails', params:{productname: artname}})
+        this.$router.push({name: 'ProductDetails', params: { productname: artname, param1: "first", param2: "second" } })
       }
     },
     data() {
