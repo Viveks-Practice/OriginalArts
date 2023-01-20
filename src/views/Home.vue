@@ -48,7 +48,7 @@
 
     },
     mounted() {
-      console.log(import.meta.env.VITE_APP_TEST)
+      // console.log(import.meta.env.VITE_APP_TEST)
     },
     methods: {
       imageClick(artname) {
