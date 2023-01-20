@@ -9,6 +9,7 @@
 //8. Study basic CSS to understand what features exist
 //9. Study basic html to understand what features exist
 //10. Add props such that when an image is clicked on, its' detailed pictures are shown
+//11. Receive the props being passed via the vue router to next page
 
 
 <template>
